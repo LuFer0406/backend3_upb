@@ -27,5 +27,5 @@ app.use(express.json());
 app.use("/post", postRoutes);
 
 app.listen(app.get("Port"), () => {
-    console.log("El servidor está escuchando por el puerto ", app.get("Port"));
+    console.log("El servidor está en el puerto ", app.get("Port"));
 })
